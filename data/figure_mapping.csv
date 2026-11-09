@@ -1,7 +1,0 @@
-manuscript_figure,description,scripts,data_outputs_in_output,figure_in_figures,required_inputs
-1,Resistance invasion index and R0,01_simulate_main.R;02_figures_main.R,Figure_1_invasion_data.csv;Figure_1_R0_data.csv,Figure_1_invasion_and_R0.pdf,model parameters; simulated draws
-2,26 provinces historical ITN campaigns,04_figure2_provinces.R,Figure_2_monthly_provincial_resistance.csv;Figure_2_campaign_markers.csv,Figure_2_provincial_resistance.pdf,data/bednet_distribution_by_province_2008_2022.xlsx [INCLUDED; VERIFY RIGHTS]
-3,Two ITN products at 50% peak coverage,01_simulate_main.R;02_figures_main.R,Figure_3_monthly_data.csv;Figure_3_impact_data.csv,Figure_3_product_comparison_50pct.pdf,simulated draws
-4,Coverage response at 25% 50% 75%,01_simulate_main.R;02_figures_main.R,Figure_4_monthly_data.csv,Figure_4_coverage_comparison.pdf,simulated draws
-5,Cases and deaths averted,01_simulate_main.R;02_figures_main.R,Figure_5_impact_data.csv,Figure_5_public_health_impact.pdf,simulated draws
-S1,Age-specific cases and deaths averted,01_simulate_main.R;03_figureS1.R,Figure_S1_plot_data.csv;age_specific_cases_deaths_averted.csv,Figure_S1_age_specific_cases_and_deaths_averted.pdf,age-specific simulations
